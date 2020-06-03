@@ -1,0 +1,73 @@
+.card {
+    margin-bottom: 1rem !important;
+}
+
+.card-header {
+    background: #1f4076;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding: 1.4rem 1.25rem !important
+}
+
+.card-body {
+    padding: .75rem 1.2rem !important;
+}
+
+.label {
+    font-weight: 500;
+    margin-right: 1rem;
+}
+
+.label,
+.data {
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+}
+
+.btn-link {
+    padding: unset !important;
+    font-size: .85rem !important;
+    color: #1f4076;
+}
+
+.table thead th {
+    text-align: center;
+}
+
+.table td {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+}
+
+::ng-deep th.mat-header-cell {
+    text-align: center;
+}
+
+::ng-deep tr.mat-header-cell {
+    text-align: center;
+}
+
+::ng-deep th.mat-header-cell {
+    background: #1f4076;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding: 1.4rem 1.25rem !important
+}
+
+.phone-table {
+    margin-top: 1rem;
+}
+
+button {
+    margin-left: 0.5rem;
+}
+
+.text-red {
+    color: red
+}
