@@ -17,7 +17,7 @@ export class PhoneMnemonicsComponent implements OnInit {
   mobNumberPattern = "^((\\+91-?)|0)?[0-9]{10}$";
   submitted = false;
   dataSource: any;
-  displayedColumns: string[] = ['id', 'phoneNumber', 'mnemonic'];
+  displayedColumns: string[] = ['id', 'mnemonic'];
   @ViewChild(MatPaginator) paginator: MatPaginator;
   pageSizeOptions = [10, 20, 50, 100];
   pageSize: number = 10;
